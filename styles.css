@@ -1,0 +1,65 @@
+body {
+    margin: 0;                
+    height: 100vh;            
+    display: flex;           
+    justify-content: center; 
+    align-items: center;      
+    background-color: #333;   
+}
+.edge{
+  width: 750px;
+  height: 500px;
+  background-color: lab(46.91% 71.35 32.86);
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+  position: relative;   
+}
+.white-moon-circle{
+   width:250px; 
+   height: 250px;
+   background-color: white;
+   border-radius: 50%;
+   position: absolute; 
+   top: 125px;
+   left: 125px;
+}
+.red-circle{
+    width: 200px;
+    height: 200px;
+    background-color: lab(46.91% 71.35 32.86);
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;     
+    left: 56.25px;  
+}
+
+.white-star {
+    width: 125px;
+    height: 125px;
+    position: absolute;
+    top: 187.5px;    
+    left: 385.4px;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-18deg);
+}
+
+
+.star-point {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;  
+    border-right: 20px solid transparent; 
+    border-bottom: 60px solid white;      
+    transform-origin: 50% 100%;
+    top: 2.5px; 
+}
+
+.star-point-1 { transform: rotate(0deg); }
+.star-point-2 { transform: rotate(72deg); }
+.star-point-3 { transform: rotate(144deg); }
+.star-point-4 { transform: rotate(216deg); }
+.star-point-5 { transform: rotate(288deg); }
